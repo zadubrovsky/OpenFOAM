@@ -1,0 +1,184 @@
+species
+(
+H2S2
+HS2
+S2
+S
+H2
+H2S
+SH
+H
+M
+);
+
+reactions
+{
+    #1
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S + M <=> H2 + S + M";
+        A        2.65686813406724e-3;
+        beta     -2.613;
+        Ta       44872.4;
+    }
+    #2
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S + H <=> SH + H2";
+        A        5.79562130176306e-20;
+        beta     1.94;
+        Ta       454.913;
+    }
+    #3
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S + S <=> 2SH";
+        A        1.38165623116733e-13;
+        beta     0;
+        Ta       3715.8;
+    }
+    #4
+    {
+        type     reversibleArrheniusReaction;
+        reaction "S + H2 <=> SH + H";
+        A        2.24181618361005e-13;
+        beta     0;
+        Ta       9707.17;
+    }
+    #5
+    {
+        type     reversibleArrheniusReaction;
+        reaction "S + SH <=> S2 + H;
+        A        4.48332270432733e-14;
+        beta     0;
+        Ta       0;
+    }
+    #6
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + S2 + M <=> HS2 + M";
+        A        3.1710274389479e-29;
+        beta     -2.84;
+        Ta       837.866;
+    }
+    #7
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + HS2 <=> 2SH";
+        A        1.61398687982426e-19;
+        beta     1.62;
+        Ta       -518.319;
+    }
+    #8
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + HS2 <=> 2SH";
+        A        1.82641724877435e-14;
+        beta     0.353;
+        Ta       105.68;
+    }
+    #9
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S2 + M <=> 2SH + M";
+        A        3.83618903805027e-13;
+        beta     1;
+        Ta       28698.8;
+    }
+    #10
+    {
+        type     reversibleArrheniusReaction;
+        reaction "SH + HS2 <=> H2S + S2";
+        A        1.04111810762334e-23;
+        beta     3.05;
+        Ta       -556.0611;
+    }
+    #11
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + HS2 <=> H2 + S2";
+        A        2.04267841627554e-19;
+        beta     1.653;
+        Ta       -556.0611;
+    }
+    #12
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + HS2 <=> H2S + S";
+        A        7.3231849068616e-14;
+        beta     0;
+        Ta       3183.39;
+    }
+    #13
+    {
+        type     reversibleArrheniusReaction;
+        reaction "S + HS2 <=> S2 + SH";
+        A        6.92468464322635e-21;
+        beta     2.2;
+        Ta       -301.93;
+    }
+    #14
+    {
+        type     reversibleArrheniusReaction;
+        reaction "HS2 + HS2 <=> H2S2 + S2";
+        A        1.58744979829576e-26;
+        beta     3.37;
+        Ta       -841.3884;
+    }
+    #15
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S2 + H <=> HS2 + H2";
+        A        8.28514283477956e-20;
+        beta     1.933;
+        Ta       -708.5376;
+    }
+    #16
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S2 + H <=> H2S + SH";
+        A        6.07715061560914e-19;
+        beta     1.724;
+        Ta       235.005;
+    }
+    #17
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S2 + SH <=> H2S + HS2";
+        A        1.06267386540246e-23;
+        beta     2.98;
+        Ta       -744.77;
+    }
+    #18
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H2S2 + S <=> HS2 + SH";
+        A        4.73260218609004e-21;
+        beta     2.31;
+        Ta       605.88;
+    }
+    #19
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + H + M <=> H2 + M";
+        A        2.75740145234636e-36;
+        beta     -1;
+        Ta       0;
+    }
+    #20
+    {
+        type     reversibleArrheniusReaction;
+        reaction "H + S + M <=> SH + M";
+        A        1.70962161484111e-37;
+        beta     -0.6;
+        Ta       0;
+    }
+    #21
+    {
+        type     reversibleArrheniusReaction;
+        reaction "S2 + M <=> S + S + M";
+        A        7.97076490590298e-14;
+        beta     0;
+        Ta       38700;
+    }
+}

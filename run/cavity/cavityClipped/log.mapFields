@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1906                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : fc3d515-20190712 OPENFOAM=1906 patch=190708
+Arch   : "LSB;label=32;scalar=64"
+Exec   : D:\OpenFoam\v1906\msys64\home\ofuser\OpenFOAM\OpenFOAM-v1906\platforms\linux64MingwDPInt32Opt\bin\mapFields.exe cavity -case cavityClipped -sourceTime latestTime
+Date   : Mar 15 2020
+Time   : 16:25:49
+Host   : NICK
+PID    : 6076
+I/O    : uncollated
+Case   : D:/OpenFoam/v1906/msys64/home/Nick/run/cavity/cavityClipped
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Source: "D:/OpenFoam/v1906/msys64/home/Nick/run/cavity" "cavity"
+Target: "D:/OpenFoam/v1906/msys64/home/Nick/run/cavity" "cavityClipped"
+
+Create databases as time
+
+Source time: 0.5
+Target time: 0.5
+Create meshes
+
+Source mesh size: 400	Target mesh size: 336
+
+
+Mapping fields for time 0.5
+
+    interpolating p
+    interpolating U
+
+End
+
