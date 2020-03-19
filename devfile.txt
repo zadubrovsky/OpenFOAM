@@ -1,8 +1,4 @@
 new
 This is how I want this file to be
 Zdarova xex
-<<<<<<< Updated upstream
-=======
-new line
-sudoku
->>>>>>> Stashed changes
+OMAE MAWO SINDEIRU
