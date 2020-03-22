@@ -20,26 +20,26 @@ internalField   uniform 0;
 
 boundaryField
 {
-    movingWall
+    inlet
     {
         type            zeroGradient;
     }
 
-    bottomWall
+    outlet
     {
         type            zeroGradient;
     }
-    leftSide
+    wall
     {
         type            zeroGradient;
     }
-    rightSide
+    wedge1
     {
-        type            zeroGradient;
+        type            wedge;
     }
-    frontAndBack
+    wedge2
     {
-        type            empty;
+        type            wedge;
     }
 }
 

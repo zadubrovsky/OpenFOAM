@@ -15,40 +15,44 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-5
+6
 (
-    movingWall
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          20;
-        startFace       760;
-    }
-    bottomWall
-    {
-        type            wall;
-        inGroups        1(wall);
-        nFaces          20;
-        startFace       780;
-    }
-    leftSide
+    inlet
     {
         type            patch;
-        nFaces          20;
-        startFace       800;
+        nFaces          7500;
+        startFace       438500;
     }
-    rightSide
+    outlet
     {
         type            patch;
-        nFaces          20;
-        startFace       820;
+        nFaces          7500;
+        startFace       446000;
     }
-    frontAndBack
+    wall
+    {
+        type            patch;
+        nFaces          1000;
+        startFace       453500;
+    }
+    wedge1
+    {
+        type            patch;
+        nFaces          3000;
+        startFace       454500;
+    }
+    wedge2
+    {
+        type            patch;
+        nFaces          3000;
+        startFace       457500;
+    }
+    defaultFaces
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          800;
-        startFace       840;
+        nFaces          0;
+        startFace       460500;
     }
 )
 
