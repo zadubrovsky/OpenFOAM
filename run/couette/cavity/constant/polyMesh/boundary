@@ -35,17 +35,25 @@ FoamFile
         nFaces          1000;
         startFace       453500;
     }
-    wedge1
+    wedgeRight
     {
-        type            patch;
+        type            cyclic;
+        inGroups        1(cyclic);
         nFaces          3000;
         startFace       454500;
+        matchTolerance  0.0001;
+        transform       unknown;
+        neighbourPatch  wedgeLeft;
     }
-    wedge2
+    wedgeLeft
     {
-        type            patch;
+        type            cyclic;
+        inGroups        1(cyclic);
         nFaces          3000;
         startFace       457500;
+        matchTolerance  0.0001;
+        transform       unknown;
+        neighbourPatch  wedgeRight;
     }
     defaultFaces
     {

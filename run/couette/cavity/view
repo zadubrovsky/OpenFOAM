@@ -1,0 +1,3 @@
+blockMesh
+paraFoam -builtin -touch
+paraview.exe cavity.foam
